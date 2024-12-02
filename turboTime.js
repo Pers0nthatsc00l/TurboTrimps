@@ -23,6 +23,9 @@ function toggleTurbo() {
     } else if (window.turbo === 60) {
         window.turbo = 100;
 
+    } else if (window.turbo === 100) {
+        window.turbo = 200;
+
     } else {
         window.turbo = 1;
     }
